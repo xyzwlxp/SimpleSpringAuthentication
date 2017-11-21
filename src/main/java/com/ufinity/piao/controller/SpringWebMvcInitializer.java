@@ -9,11 +9,6 @@ public class SpringWebMvcInitializer extends AbstractAnnotationConfigDispatcherS
 		return new Class[] { CustomWebSecurityConfigurerAdapter.class };
 	}
 
-//	@Override
-//	protected Class<?>[] getServletConfigClasses() {
-//		return new Class<?>[0] ;
-//	}
-	
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		return new Class[] { MvcConfiguration.class };
