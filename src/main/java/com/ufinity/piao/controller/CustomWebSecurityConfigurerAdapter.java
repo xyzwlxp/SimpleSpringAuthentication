@@ -30,6 +30,6 @@ public class CustomWebSecurityConfigurerAdapter extends WebSecurityConfigurerAda
 				.anyRequest().authenticated() // 7
 				.and().formLogin() // #8
 				.loginPage("/login") // #9
-				.permitAll(); // #5
+				.permitAll().defaultSuccessUrl("/private/overview.html"); // #5
 	}
-}
+}	
