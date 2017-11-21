@@ -1,4 +1,4 @@
-package com.ufinity.piao.controller;
+package com.ufinity.piao.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
